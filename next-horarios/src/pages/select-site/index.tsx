@@ -241,7 +241,7 @@ export const getServerSideProps = async (context) => {
 
 
   const data: ElementData={ 
-    site: site_id_logueado
+    site: site_id_logueado??0
   };
 
   
